@@ -42,15 +42,15 @@
       <div class="row d-flex justify-content-evenly">
          <div class="col-md-2 tangition-part alert-info" id="deposit">
             <h4>Deposit</h4>
-            <h1>$ <span id="current_deposit_amount">000</span></h1>
+            <h1>$ <span id="currentDeposit">000</span></h1>
          </div>
          <div class="col-md-2 tangition-part alert-success">
             <h4>Balance</h4>
-            <h1>$ <samp id="currentAmount">000</samp></h1>
+            <h1>$ <samp id="Balance">000</samp></h1>
          </div>
          <div class="col-md-2 tangition-part alert-danger" id="withdraw">
             <h4>Withdraw</h4>
-            <h1>$ <span id="currentWithdrawAmount">000</span></h1>
+            <h1>$ <span id="currentWithdraw">000</span></h1>
          </div>
       </div>
       <div class="row">
@@ -60,11 +60,11 @@
                <h1 class="withdraw_tittle ">Withdraw</h1>
                <div class="mb-3 row">
                   <div class="col-sm-10">
-                     <input type="number" id="currentWithdraw" class="form-control" id="withdraw"
+                     <input type="number" class="form-control" id="withdrawAmount"
                         placeholder="$ Amount you want to Withdraw">
                   </div>
                </div>
-               <input type="submit" id="withdrawBtn" class="px-3 btn-info my_btn" value="Withdraw">
+               <input type="submit" id="addWithdraw" class="px-3 btn-info my_btn" value="Withdraw">
             </div>
          </div>
          <div class="col-md-3"></div>
@@ -77,8 +77,8 @@
                <h1 class="withdraw_tittle ">Deposit</h1>
                <div class="mb-3 row">
                   <div class="col-sm-10">
-                     <input type="number" class="form-control" id="deposit_amount"
-                        placeholder="$ Amount you want to Deposit">
+                     <input type="number" class="form-control" id="newDeposit"
+                        placeholder="$ Amount you want to Deposit" >
                   </div>
                </div>
                <input type="submit" id="deposit_btn" class="px-3 btn-info my_btn" value="Deposit">
